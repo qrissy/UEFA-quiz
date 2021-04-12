@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c5cae9"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:autofillHints="No"
+            android:hint="@string/name"
+            android:inputType="textCapWords" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/_1_when_was_uefa_champion_league_founded" />
+
+        <RadioGroup
+            android:id="@+id/radioGrp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_question_1a"
+                style="@style/TextStyle2"
+                android:text="@string/_1920" />
+
+            <RadioButton
+                android:id="@+id/radio_question_1b"
+                style="@style/TextStyle2"
+                android:text="@string/_1987" />
+
+            <RadioButton
+                android:id="@+id/radio_question_1c"
+                style="@style/TextStyle2"
+                android:text="@string/_1892" />
+
+            <RadioButton
+                android:id="@+id/radio_question_1d"
+                style="@style/TextStyle2"
+                android:text="@string/_1955" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/_2_what_is_the_name_of_the_most_successful_club_in_uefa" />
+
+        <RadioGroup
+            android:id="@+id/radioGrp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_question_2a"
+                style="@style/TextStyle2"
+                android:text="@string/ac_milan" />
+
+            <RadioButton
+                android:id="@+id/radio_question_2b"
+                style="@style/TextStyle2"
+                android:text="@string/chelsea" />
+
+            <RadioButton
+                android:id="@+id/radio_question_2c"
+                style="@style/TextStyle2"
+                android:text="@string/real_madrid" />
+
+            <RadioButton
+                android:id="@+id/radio_question_2d"
+                style="@style/TextStyle2"
+                android:text="@string/bayern_munich" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/_3_which_clubs_has_won_uefa_title_6_times_each" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_3a"
+            style="@style/TextStyle3"
+            android:text="@string/liverpool" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_3b"
+            style="@style/TextStyle3"
+            android:text="@string/atl_tico_madrid" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_3c"
+            style="@style/TextStyle3"
+            android:text="@string/barcelona" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_3d"
+            style="@style/TextStyle3"
+            android:text="@string/bayern_munich" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/_4_which_clubs_has_been_runners_up_3_times_each_in_uefa" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_4a"
+            style="@style/TextStyle3"
+            android:text="@string/benfica" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_4b"
+            style="@style/TextStyle3"
+            android:text="@string/valencia" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_4c"
+            style="@style/TextStyle3"
+            android:text="@string/barcelona" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_4d"
+            style="@style/TextStyle3"
+            android:text="@string/liverpool" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/_5_what_continent_is_uefa_champions_league_played_in" />
+
+        <RadioGroup
+            android:id="@+id/radioGrp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_question_5a"
+                style="@style/TextStyle2"
+                android:text="@string/asia" />
+
+            <RadioButton
+                android:id="@+id/radio_question_5b"
+                style="@style/TextStyle2"
+                android:text="@string/africa" />
+
+            <RadioButton
+                android:id="@+id/radio_question_5c"
+                style="@style/TextStyle2"
+                android:text="@string/europe" />
+
+            <RadioButton
+                android:id="@+id/radio_question_5d"
+                style="@style/TextStyle2"
+                android:text="@string/america" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/_6_who_is_the_all_time_top_scorer_of_uefa_champions_league" />
+
+        <EditText
+            android:id="@+id/question_six_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:autofillHints="No"
+            android:hint="@string/enter_your_answer_here"
+            android:inputType="textCapWords" />
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/submit" />
+
+        <Button
+            android:id="@+id/resetBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/reset" />
+
+    </LinearLayout>
+
+</ScrollView>
